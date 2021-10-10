@@ -1,0 +1,147 @@
+*{
+        margin:0px;
+        padding:0px;
+}
+.navigation-bar-bg
+{
+        background-color: rgb(33, 134, 216);
+        
+        
+}
+.nav-link{
+        color: white;
+}
+.hidden {
+color: white;
+}
+
+.navbar-toggler{
+        border-color: rgb(253, 251, 251);
+        color: rgb(226, 218, 218);    
+         
+} 
+/* .navbar-toggler-icon{
+        background-color: #f4f5ef;
+        height: 1px;
+        display: block;
+          
+} */
+
+.navbar-toggler-icon{
+        width: 35px;
+        height: 5px;
+        background-color: rgb(250, 249, 249);
+        margin:6px 0;
+        display: block;
+}
+
+
+#banner{
+        width:100%;
+        height: 550px;
+        padding: 0;
+        background-image: url("./img/l.gif");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        z-index: 110;
+        
+        
+
+}
+.gif{
+        width: 100%;
+        
+}
+
+
+.welcome-to-cloudmury{
+        width: 100%;
+        height: 100%;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* #footer{
+        padding-top: 20px;
+        position:fixed;
+        bottom:0; 
+        height:auto; 
+        margin-top:400px;
+        width:100%;
+        color: white;
+        background-color: rgb(33, 134, 216);
+        
+} */
+
+.pragya-font{
+        text-decoration: none;
+        font-weight: bold;
+        color: aliceblue;
+        display: flex;
+        width: 100%;
+        height: 100%;
+        text-shadow: 10px 10px 10px black;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+
+        
+}
+.p-title{
+display: flex;
+justify-content: center;
+align-items: center;
+width: 100%;
+height: 100%;
+
+}
+.pragya-font:hover{
+        color:azure;
+}
+.whatsapp {
+        position: fixed;
+        right: 10px;
+        z-index: 9000;
+        top: 80%;
+    }
+    .whatsapp h5 {
+        color:white;
+        background: #59c54d;
+        padding: 5px;
+        border-radius: 5px;
+    }
+    @media screen and (max-width: 720px){
+            #banner{
+                    height: 320px;
+                
+            }
+    }
+    #boom{
+            background-color: blue;
+    }
+    footer {
+        background: #1b75cf;
+        color: white;
+      }
+   footer a {
+        color: white;
+        text-decoration: none;
+        transition: all 0.3s;
+      }
+
+   .address{
+           color: white;
+   }   
